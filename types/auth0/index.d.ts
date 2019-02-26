@@ -1,4 +1,4 @@
-// Type definitions for auth0 2.9.3
+// Type definitions for auth0 2.9.4
 // Project: https://github.com/auth0/node-auth0
 // Definitions by: Seth Westphal <https://github.com/westy92>
 //                 Ian Howe <https://github.com/ianhowe76>
@@ -15,6 +15,7 @@ export interface ManagementClientOptions {
   scope?: string;
   tokenProvider?: TokenProvider;
   retry?: RetryOptions;
+  proxy?: string;
 }
 
 export interface TokenProvider {
